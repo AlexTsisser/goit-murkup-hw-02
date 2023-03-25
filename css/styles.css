@@ -1,0 +1,159 @@
+.body {
+    position: relative;
+    width: 1440px;
+    height: 2592px;
+
+    background: #FFFFFF;
+}
+
+/* top line */
+.header {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: #E7E9FC;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 34px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+    color: #4D5AE5 flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo>.logo2 {
+    color: #2E2F42;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 380px;
+    top: 10px;
+}
+
+.contacts>.contacts-1 {
+
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+.contacts>.contacts-2 {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 30px;
+
+    color: #434455;
+}
+
+/* section-0 */
+
+.section-0 {
+
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+
+    /* NAVY BLUE */
+
+    background: #2E2F42;
+}
+
+.title {
+    /* Effective Solutions for Your Business */
+
+
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+
+    /* Header 1 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    /* or 107% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+
+    .section-1 {
+        width: 1128px;
+        height: 104px;
+        left: 156px;
+        top: 792px;
+    }
+
+    .section-2 {
+        width: 1128px;
+        height: 412px;
+        left: 156px;
+        top: 1016px;
+    }
+
+    .section-3 {
+        width: 1440px;
+        height: 732px;
+        left: 0px;
+        top: 1548px;
+    }
+
+    .footer {
+        width: 1440px;
+        height: 312px;
+        left: 0px;
+        top: 2280px;
+    }
