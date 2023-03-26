@@ -1,0 +1,32 @@
+.body {
+    font-family: roboto;
+    background: #FFFFFF;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* portfolio page */
+.buttons-filters {
+    cursor: pointer;
+}
+
+.buttons-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.img-list1,
+.img-list2,
+.img-list3 {
+    display: flex;
+}
+
+/* main page */
+.section1-list,
+.img-list,
+.team-list {
+    display: flex;
+}
