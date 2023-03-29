@@ -1,10 +1,9 @@
 .body,
 .body-portfolio {
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background: #FFFFFF;
     position: relative;
-
     font-size: 16px;
 }
 
@@ -17,6 +16,14 @@
 :root {
     width: 1440px;
     height: 2593px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 p:hover {
@@ -41,7 +48,7 @@ p:hover {
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
-    text-decoration: none;
+
     letter-spacing: 0.03em;
     color: #4D5AE5;
 
@@ -56,26 +63,29 @@ p:hover {
     text-decoration: underline;
 }
 
-.nav-link {
+.link-portfolio,
+.link-studio,
+.link-contscts {
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    list-style: none;
-    text-decoration: none;
+
     color: #2E2F42;
 
 }
 
-.nav-link .link:hover,
-.nav-link .link:focus {
+.link-portfolio:hover,
+.link-studio:hover,
+.link-contscts:hover,
+.link-portfolio:focus,
+.link-studio:focus,
+.link-contscts:focus {
     color: #404bbf;
 }
 
-.link {
-    text-decoration: none;
-}
+
 
 .contacts-list {
     list-style: none;
