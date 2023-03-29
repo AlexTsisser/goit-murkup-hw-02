@@ -274,33 +274,21 @@ p:hover {
 }
 
 /* portfolio */
-.img-list1 h3,
-.img-list2 h3,
-.img-list3 h3 {
+.top-title,
+.medium-title,
+.low-title {
     font-size: 20px;
     color: #2E2F42;
 }
 
-.img-list1 p,
-.img-list2 p,
-.img-list3 p {
+.top p,
+.medium p,
+.low p {
     color: #434455;
 }
 
 .buttons-list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-
-    position: absolute;
-    width: 586px;
-    height: 48px;
-    left: 427px;
-    top: 168px;
     list-style-type: none;
-
 
 }
 
@@ -309,7 +297,7 @@ p:hover {
     background: #F4F4FD;
 }
 
-.btn-all {
+.btn-first {
     color: #FFFFFF;
     background: #4D5AE5;
 }
