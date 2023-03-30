@@ -112,7 +112,7 @@ p:hover {
 
 /* main page */
 
-.section-ziro {
+.section-hero {
     background: #2E2F42;
 
 }
@@ -283,17 +283,15 @@ p:hover {
     color: #2E2F42;
 }
 
-.top p,
-.medium p,
-.low p {
-    color: #434455;
-}
-
-
 
 .buttons-filters {
     color: #4D5AE5;
     background: #F4F4FD;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .btn-first {
