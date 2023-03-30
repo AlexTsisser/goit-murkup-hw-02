@@ -155,18 +155,9 @@ p:hover {
     border-radius: 4px;
 }
 
-.section-first {
-    list-style: none;
-}
 
-.sectionfirst-list {
-    list-style: none;
-}
 
-.title-strategy,
-.title-punctuality,
-.title-diligence,
-.title-technologies {
+.title-first {
 
     font-family: Roboto;
     font-style: normal;
@@ -177,10 +168,7 @@ p:hover {
     color: #2E2F42;
 }
 
-.text-strategy,
-.text-punctuality,
-.text-diligence,
-.text-technologies {
+.text-box {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -262,7 +250,7 @@ p:hover {
 
 .footer-link {
     text-decoration: none;
-    font-family: Raleway, sans-serify;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     line-height: 1.17;
     font-size: 18px;
@@ -277,7 +265,7 @@ p:hover {
 }
 
 .logo-footer {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
 
 .footer-text {
