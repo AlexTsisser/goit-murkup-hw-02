@@ -10,6 +10,7 @@
     width: 1440px;
     height: 2074px;
     background: #FFFFFF;
+    color: #434455;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -167,6 +168,7 @@ p:hover {
 }
 
 .text-box {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -277,9 +279,6 @@ p:hover {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;
 }
 
