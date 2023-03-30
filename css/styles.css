@@ -281,10 +281,7 @@ p:hover {
     color: #434455;
 }
 
-.buttons-list {
-    list-style-type: none;
 
-}
 
 .buttons-filters {
     color: #4D5AE5;
@@ -292,39 +289,12 @@ p:hover {
 }
 
 .btn-first {
+    color: #4d5ae5;
+    background: #F4F4FD;
+}
+
+.buttons-filters:focus,
+.buttons-filters:hover {
     color: #FFFFFF;
-    background: #4D5AE5;
-}
-
-.img-list1 {
-    display: flex;
-    list-style-type: none;
-    gap: 24px;
-    position: absolute;
-    width: 1128px;
-    height: 420px;
-    left: 156px;
-    top: 288px;
-}
-
-.img-list2 {
-    display: flex;
-    list-style-type: none;
-    gap: 24px;
-    position: absolute;
-    width: 1128px;
-    height: 420px;
-    left: 156px;
-    top: 756px;
-}
-
-.img-list3 {
-    display: flex;
-    list-style-type: none;
-    gap: 24px;
-    position: absolute;
-    width: 1128px;
-    height: 420px;
-    left: 156px;
-    top: 1224px;
+    background-color: #404BBF;
 }
