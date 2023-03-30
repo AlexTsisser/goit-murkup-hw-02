@@ -63,10 +63,7 @@ p:hover {
     text-decoration: underline;
 }
 
-.link-studio,
-.link-portfolio,
-.link-contacts {
-
+.link-studio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -75,12 +72,9 @@ p:hover {
 
 }
 
-.link-portfolio:hover,
+
 .link-studio:hover,
-.link-contscts:hover,
-.link-portfolio:focus,
-.link-studio:focus,
-.link-contscts:focus {
+.link-studio:focus {
     color: #404bbf;
 }
 
