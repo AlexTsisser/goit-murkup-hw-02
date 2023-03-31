@@ -1,27 +1,21 @@
-.body {
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background: #FFFFFF;
-    position: relative;
-    font-size: 16px;
-}
-
-.body-portfolio {
-    width: 1440px;
-    height: 2074px;
-    background: #FFFFFF;
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
-
 :root {
-    width: 1440px;
-    height: 2593px;
+    --brand-color-white: #FFFFFF;
+    --brand-color-text: #434455;
+    --brand-color-navyblue: #2E2F42;
+    --brand-color-iris: #4D5AE5;
+    --brand-color-buttonhover: #404BBF;
+    --brand-color-cloud: #F4F4FD;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--brand-color-text);
+    background: var(--brand-color-white);
+    font-size: 16px;
+
+}
+
+.body-portfolio {}
 
 .link {
     text-decoration: none;
@@ -31,9 +25,6 @@
     list-style: none;
 }
 
-p:hover {
-    text-decoration: underline;
-}
 
 /* buttons cursor pointer */
 .buttons-filters,
@@ -55,12 +46,12 @@ p:hover {
     text-transform: uppercase;
 
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: var(--brand-color-iris);
 
 }
 
 .logo-part {
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 
@@ -73,14 +64,14 @@ p:hover {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 
 }
 
 
 .link-studio:hover,
 .link-studio:focus {
-    color: #404bbf;
+    color: var(--brand-color-buttonhover);
 }
 
 
@@ -91,12 +82,12 @@ p:hover {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--brand-color-text);
 }
 
 .contacts-list .contacts:hover,
 .contacts-list .contacts:focus {
-    color: #404bbf;
+    color: var(--brand-color-buttonhover);
 }
 
 .nav-link .link:active,
@@ -114,25 +105,26 @@ p:hover {
 /* main page */
 
 .section-hero {
-    background: #2E2F42;
+    background: var(--brand-color-navyblue);
 
 }
 
 /* Effective Solutions for Your Business */
 .title {
     letter-spacing: 0.02em;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 .title-button {
 
 
     font-family: Roboto, sans-serif;
-    background: #4D5AE5;
+    background: var(--brand-color-iris);
+    ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -142,14 +134,14 @@ p:hover {
     line-height: 1.5;
     letter-spacing: 0.04em;
 
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 
 }
 
 .title-button:hover,
 .title-button:focus {
 
-    background: #404BBF;
+    background: var(--brand-color-buttonhover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -158,20 +150,18 @@ p:hover {
 
 .title-first {
 
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 .text-box {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--brand-color-text);
 }
 
 .section-second {
@@ -185,7 +175,7 @@ p:hover {
     line-height: 1.11;
     text-transform: capitalize;
 
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 .img-list {
@@ -195,7 +185,7 @@ p:hover {
 
 .section-three {
 
-    background: #F4F4FD;
+    background: var(--brand-color-cloud);
 
 }
 
@@ -203,23 +193,20 @@ p:hover {
     list-style: none;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 32px;
+
 }
 
 .team-title {
     font-size: 36px;
-    text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 .member-team {
-    width: 264px;
-    height: 380px;
 
-    background: #FFFFFF;
+    background: var(--brand-color-white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -227,25 +214,24 @@ p:hover {
 .member-name {
     font-weight: 500;
     font-size: 20px;
-    text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.2;
 
     /* NAVY BLUE */
 
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 .position {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
+    color: var(--brand-color-text);
+
 }
 
 .footer {
 
-    background: #2E2F42;
+    background: var(--brand-color-navyblue);
 }
 
 .footer-link {
@@ -256,7 +242,8 @@ p:hover {
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--brand-color-iris);
+    ;
 }
 
 .footer-link:hover,
@@ -265,12 +252,12 @@ p:hover {
 }
 
 .logo-footer {
-    color: #f4f4fd;
+    color: var(--brand-color-cloud);
 }
 
 .footer-text {
 
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 /* portfolio */
@@ -279,13 +266,13 @@ p:hover {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--brand-color-navyblue);
 }
 
 
 .buttons-filters {
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: var(--brand-color-iris);
+    background: var(--brand-color-cloud);
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -294,12 +281,12 @@ p:hover {
 }
 
 .btn-first {
-    color: #4d5ae5;
-    background: #F4F4FD;
+    color: var(--brand-color-iris);
+    background: var(--brand-color-cloud);
 }
 
 .buttons-filters:focus,
 .buttons-filters:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-buttonhover);
 }
